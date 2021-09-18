@@ -1,7 +1,6 @@
 on:  
-  repository_dispatch:
-    types:
-      - webhook
+  repository_dispatch
+
 jobs:
   
   test:
